@@ -406,7 +406,7 @@ Zimbra has a built-in GraphQL web client that can be used to interactively run G
 
 Example query to get all tags of the current user:
 
-```json
+```javascript
 query getTag {
    getTag {
        id
@@ -422,7 +422,7 @@ query getTag {
 
 You can also run queries and set variables:
 
-```json
+```javascript
 query GetCustomMetadata($id: ID!, $section: String!) {
    getCustomMetadata(id: $id, section: $section) {
       meta {
@@ -436,7 +436,7 @@ query GetCustomMetadata($id: ID!, $section: String!) {
 }
 
 //query variables
-```json
+
 { "id": 266, "section": "zwc:stikyNotesZimletMetaData"}
 ```
 > ![](screenshots/06-getCustomMetadata.png)
@@ -447,8 +447,10 @@ query GetCustomMetadata($id: ID!, $section: String!) {
 Zimbra has a built-in GraphQL reference that shows you available queries and mutations. Where a query only returns data a mutation also alters data on the back-end. To access the reference click the `Docs` button on the right top in the GraphiQL client.
 
 > ![](screenshots/7-reference-guide.png)
+*Built-in GraphQL reference*
 
 > ![](screenshots/8-reference-guide.png)
+*Built-in GraphQL reference*
 
 ## Note on promises
 
