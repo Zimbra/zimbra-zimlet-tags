@@ -1,0 +1,12 @@
+{
+	"tags-zimlet": {
+		"title": "Tags Zimlet",
+		"create": "Create test tag",
+		"tagEmail": "Tag this email",
+		"removeEmailTag": "Remove test tag from email",
+		"getAllTags": "Get all tags",
+		"deleteTag": "Delete test tag",
+		"tagContact": "Tag contact",
+		"removeContactTag": "Remove test tag from contact"
+	}
+}
