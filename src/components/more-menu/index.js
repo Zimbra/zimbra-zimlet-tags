@@ -32,11 +32,9 @@ export default class MoreMenu extends Component {
         super(props);
         this.zimletContext = props.children.context;
         console.log(this);
-
     };
 
     createTag = e => {
-        //this.props.emailData contains a JSON-like object with the clicked email's data, you could use the id to fetch the email from the REST API from the back-end
         const { createTag } = this.props;
         /*
         0: blue, // default color
@@ -61,8 +59,8 @@ export default class MoreMenu extends Component {
         });
     }
 
-
     tagEmail = e => {
+                //this.props.emailData contains a JSON-like object with the clicked email's data, the id is used to perform actions on the mail item.
         const { action } = this.props;
         const zimlet = this;
         return action({
@@ -161,9 +159,7 @@ export default class MoreMenu extends Component {
         }));
     }
 
-
     render() {
-
         const childIcon = (
             <span class={style.appIcon}>
             </span>);

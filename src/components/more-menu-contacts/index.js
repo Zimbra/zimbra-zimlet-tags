@@ -27,8 +27,7 @@ export default class MoreMenuContacts extends Component {
 
     };
 
-    createTag = e => {
-        //this.props.emailData contains a JSON-like object with the clicked email's data, you could use the id to fetch the email from the REST API from the back-end
+    createTag = e => {        
         const { createTag } = this.props;
         /*
         0: blue, // default color
@@ -53,8 +52,8 @@ export default class MoreMenuContacts extends Component {
         });
     }
 
-
     tagContact = e => {
+        //this.props.selectedContacts contains an array with JSON-like objects that contain the selected contacts, the id is used to perform actions on the contact(s) item.
         const { contactAction } = this.props;
         const zimlet = this;
         return contactAction({
@@ -105,7 +104,6 @@ export default class MoreMenuContacts extends Component {
     }
 
     render() {
-
         const childIcon = (
             <span class={style.appIcon}>
             </span>);
