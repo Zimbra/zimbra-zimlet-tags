@@ -1,7 +1,5 @@
 # Using tags and GraphQL from a Zimlet
 
-Depends: https://github.com/ZimbraOS/zm-x-web/pull/2833, https://jira.corp.synacor.com/browse/PREAPPS-5126, OSB ticket.
-
 This article explains how to write a Zimlet to create, modify and delete tags. It also shows how to add and remove tags from emails and contacts in Zimbra. 
 
 Additionally this article shows how to use GraphQL and Apollo Client from a Zimlet. This article assumes you have already set up your development environment, have basic understanding of Preact Zimlets and Zimlet CLI. If you are new to all this, please take a look at https://wiki.zimbra.com/wiki/DevelopersGuide#Zimlet_Development_Guide.
