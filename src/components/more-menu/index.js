@@ -5,8 +5,7 @@ import { withIntl } from '../../enhancers';
 import { ActionMenuGroup, ActionMenuItem, NestedActionMenuItem } from '@zimbra-client/components';
 import { withTagCreate, withActionMutation, withTags, withTagAction } from '@zimbra-client/graphql';
 import style from './style';
-import gql from 'graphql-tag';
-import { useApolloClient } from '@apollo/react-hooks';
+import { useApolloClient, gql } from '@apollo/client';
 
 // See also: https://files.zimbra.com/docs/soap_api/8.8.8/api-reference/zimbraMail/MsgAction.html
 
