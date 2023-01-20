@@ -8,5 +8,9 @@
 		"deleteTag": "Delete test tag",
 		"tagContact": "Tag contact",
 		"removeContactTag": "Remove test tag from contact"
+	},
+	"zimlet": {
+		"description": "Development guide on how to create/modify tags from a Zimlet",
+		"label": "Tags Zimlet"
 	}
 }

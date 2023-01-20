@@ -117,7 +117,7 @@ export default class MoreMenu extends Component {
             }
         }`;
         //https://www.apollographql.com/docs/react/api/react-hooks/#useapolloclient
-        const client = useApolloClient();
+        const client = this.zimletContext.getApolloClient();
 
         //https://www.freecodecamp.org/news/react-apollo-client-2020-cheatsheet/#usingtheclientdirectly
         client.query({
